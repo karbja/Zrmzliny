@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelateria Míša a Kuba</title>
+    <style>
+        body {
+            background: url('tapeta.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+	.header h1 {
+    color: #ffdd57; /* Barva ladící s patičkou a dalšími prvky */
+    font-size: 3em; /* Velká velikost textu */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Stín pro lepší čitelnost na barevném pozadí */
+    margin-bottom: 30px; /* Odstup od následujících prvků */
+	}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 80px;
+            justify-content: center;
+        }
+        .recipe {
+            width: 100%;
+            max-width: 320px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .recipe img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .recipe h2 {
+            margin: 20px 0 10px;
+        }
+        .recipe p {
+            margin: 0;
+        }
+	.footer {
+    background: rgba(0, 0, 0, 0.8); /* Tmavé pozadí s mírnou průhledností */
+    color: white; /* Bílý text pro lepší čitelnost */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 1em;
+}
+.footer a {
+    color: #ffdd57; /* Světlá, kontrastní barva pro odkazy, například žlutá */
+    text-decoration: none; /* Odstranění podtržení odkazů */
+}
+.footer a:hover {
+    text-decoration: underline; /* Přidání podtržení odkazů při najetí myši */
+}
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>Příchutě</h1>
+</div>
+    <div class="container">
+        <!-- Příklad receptu -->
+        <div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+        <!-- Opakujte pro dalších 19 receptů -->
+	<div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+	<div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+	<div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+	<div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+	<div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+	<div class="recipe">
+            <img src="coko1.jpg" alt="Název zmrzliny 1">
+            <h2>Název zmrzliny 1</h2>
+            <p>Krátké hodnocení...</p>
+        </div>
+    </div>
+<div class="footer">
+    Kontakt: <a href="mailto:cuhanicjakub@gmail.com">cuhanicjakub@gmail.com</a>
+</div>
+</body>
+</html>
